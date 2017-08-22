@@ -1,0 +1,14 @@
+{
+  "name": "emcamps-server",
+  "version": "0.0.1",
+  "description": "The server architecture for our emailer campaign app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Matthew Holman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
