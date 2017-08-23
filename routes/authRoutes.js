@@ -12,6 +12,11 @@ module.exports = app => {
   //Step 2: Take Google's access token and re-route the user
   app.get('/auth/google/callback', passport.authenticate('google'));
 
+  app.get('/api/logout', (req, res) => {
+    req.logout();
+    res.send(req.user);
+  });
+
   //Helper route to let the user know if they are logged-in
   app.get('/api/currentUser', (req, res) => {
     res.send(req.user);
