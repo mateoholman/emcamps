@@ -6,6 +6,7 @@ import * as actions from '../actions';
 
 import Landing from './Landing';
 import Header from './Header';
+import Dashboard from './Dashboard';
 
 class App extends Component {
   componentDidMount() {

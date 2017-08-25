@@ -8,7 +8,11 @@ class Header extends Component {
       case null:
         return;
       case false:
-        return <a href="/auth/google">Log In</a>;
+        return (
+          <li>
+            <a href="/auth/google">Log In</a>
+          </li>
+        );
       default:
         return (
           <li>
@@ -26,9 +30,7 @@ class Header extends Component {
             emcamp
           </a>
           <ul className="right">
-            <li>
-              {this.renderContent()}
-            </li>
+            {this.renderContent()}
           </ul>
         </div>
       </nav>
