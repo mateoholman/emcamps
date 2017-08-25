@@ -4,4 +4,4 @@
 
 2. React front-end
 * Scaffold with create-react-app
-*
+* Add boilerplate front-end routes and components
