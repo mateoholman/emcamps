@@ -3,3 +3,5 @@
 * sessions based on cookies (yum).
 
 2. React front-end
+* Scaffold with create-react-app
+*
