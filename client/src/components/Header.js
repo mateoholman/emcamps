@@ -5,11 +5,11 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="left brand-logo">
+        <div className="nav-wrapper">
+          <a href="/" className="left brand-logo">
             emcamp
           </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <ul className="right">
             <li>
               <a>Login</a>
             </li>
