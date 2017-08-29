@@ -6,3 +6,6 @@
 2. React front-end
 * Scaffold with create-react-app
 * Add boilerplate front-end routes and components
+* App state managed with Redux / react-redux
+* Async actions managed with redux thunk & async/await
+* Form state handled with redux-form
