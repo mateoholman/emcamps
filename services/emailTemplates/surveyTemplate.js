@@ -1,4 +1,4 @@
-const keys = require('../config/keys.js');
+const keys = require('../../config/keys.js');
 
 module.exports = survey => {
   return `
