@@ -1,0 +1,33 @@
+html,
+body,
+#root,
+.full {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-wrapper .material-icons {
+  line-height: 45px;
+}
+
+.landing {
+  text-align: center;
+}
+
+.landing img {
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin: -3em auto;
+}
+
+.landing h1 {
+  padding-top: 1em;
+  font-family: Pacifico, cursive;
+}

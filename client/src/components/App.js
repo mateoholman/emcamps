@@ -16,9 +16,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container indigo darken-2">
         <BrowserRouter>
-          <div>
+          <div className="full">
             <Header />
             <Route exact path="/" component={Landing} />
             <Route exact path="/surveys" component={Dashboard} />
