@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchSurveys } from '../../actions';
+import PieChart from './PieChart';
 
 class SurveyList extends Component {
   componentDidMount() {
@@ -14,7 +15,19 @@ class SurveyList extends Component {
           className="card horizontal blue-grey darken-2 survey-card"
           key={survey._id}
         >
-          <div className="card-image">Pie Chart</div>
+          <div className="card-image">
+            <PieChart yes={survey.yes} no={survey.no} />
+            <div className="legend-yes">
+              <a className="light-blue-text accent-2">
+                Yes: {survey.yes}
+              </a>
+            </div>
+            <div className="legend-no">
+              <a className="yellow-text">
+                No: {survey.no}
+              </a>
+            </div>
+          </div>
           <div className="card-stacked">
             <div className="card-content white-text">
               <span className="card-title">
@@ -23,17 +36,15 @@ class SurveyList extends Component {
               <p>
                 {survey.body}
               </p>
-              <p className="right">
-                Sent On: {new Date(survey.dateSent).toLocaleDateString()}
-              </p>
             </div>
             <div className="card-action">
-              <a>
-                Yes: {survey.yes}
-              </a>
-              <a>
-                No: {survey.no}
-              </a>
+              <p className="right white-text">
+                Sent On: {new Date(survey.dateSent).toLocaleDateString()}
+              </p>
+              <p className="right white-text">
+                Last Responded:{' '}
+                {new Date(survey.lastResponded).toLocaleDateString()}
+              </p>
             </div>
           </div>
         </div>

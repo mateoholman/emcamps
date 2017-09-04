@@ -40,3 +40,20 @@ body,
   margin: 1em auto;
   max-width: 80%;
 }
+
+.card-image {
+  margin: auto;
+}
+
+.legend-yes,
+.legend-no {
+  text-align: center;
+}
+
+.chart-container {
+  padding: .5em;
+}
+
+.card-action p {
+  margin: 0;
+}
