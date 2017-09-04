@@ -8,8 +8,12 @@ const Dashboard = () => {
     <div className="indigo darken-2 dashboard">
       <SurveyList />
       <div className="fixed-action-btn">
-        <Link to="/surveys/new" className="btn-floating btn-large red">
-          <i className="large material-icons">add</i>
+        <Link
+          to="/surveys/new"
+          className="waves-effect waves-light btn-large z-depth-4 red"
+        >
+          <i className="material-icons left">add</i>
+          New Survey
         </Link>
       </div>
     </div>

@@ -31,3 +31,12 @@ body,
   padding-top: 1em;
   font-family: Pacifico, cursive;
 }
+
+.landing h5 {
+  font-family: 'Oleo Script', cursive;
+}
+
+.survey-card {
+  margin: 1em auto;
+  max-width: 80%;
+}
