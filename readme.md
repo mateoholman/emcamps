@@ -1,11 +1,15 @@
-1. Express server back-end with:
-* oAuth authentication using Google's API
-* sessions based on cookies (yum).
-* interface with SendGrid API for e-mail campaigns
+1. Back End:
+* Server built with Express.
+* OAuth authentication using Google's API.
+* Sessions based on cookies (yum).
+* Interface with SendGrid API for e-mail campaigns.
+* Interface with Stripe API for payments.
+* MongoDB / Mongoose utilized for data persistence.
 
-2. React front-end
-* Scaffold with create-react-app
-* Add boilerplate front-end routes and components
-* App state managed with Redux / react-redux
-* Async actions managed with redux thunk & async/await
-* Form state handled with redux-form
+2. Front End
+* Client-side built with React.
+* App state managed with Redux / react-redux.
+* Async actions managed with redux thunk middleware & async/await.
+* Form state handled with redux-form.
+* Frontend routing with react-router.
+* Frontend styling with Materialize CSS.
