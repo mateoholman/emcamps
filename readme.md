@@ -1,3 +1,6 @@
+An e-mail campaign manager to help you efficiently monitor and execute e-mail feedback campaigns.
+[DEMO](https://emcamps.herokuapp.com/)
+
 1. Back End:
 * Server built with Express.
 * OAuth authentication using Google's API.
